@@ -1,8 +1,4 @@
 
----
-layout: page
-background: '/img/glazed-tiles-3-1639453.jpg'
----
 
 
 
