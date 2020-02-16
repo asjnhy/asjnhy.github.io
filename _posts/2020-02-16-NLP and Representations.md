@@ -38,10 +38,10 @@ Word Embedding은 단어를 (200 ~ 500 차원정도의) 고차원 벡터로 벡�
 
 각 W는 모듈 R의 입력으로 들어간다. 
 그리고 모듈 R은 5 gram 의 valid/ unvalid 를 판단한다. 
-
-    -  R(W(‘‘cat"), W(‘‘sat"), W(‘‘on"), W(‘‘the"), W(‘‘mat"))=1
-    -  R(W(‘‘cat"), W(‘‘sat"), W(‘‘song"), W(‘‘the"), W(‘‘mat"))=0
-
+```
+    R(W(‘‘cat"), W(‘‘sat"), W(‘‘on"), W(‘‘the"), W(‘‘mat"))=1
+    R(W(‘‘cat"), W(‘‘sat"), W(‘‘song"), W(‘‘the"), W(‘‘mat"))=0
+```
 즉 목표는, W를 학습하는 것이다. 
 
 
@@ -52,14 +52,14 @@ Word Embedding은 단어를 (200 ~ 500 차원정도의) 고차원 벡터로 벡�
 학습을 거친 W, 각 단어들이 임베딩된 후의 word embedding space (or map)에서는,
 유사한 단어들끼리 가깝게 모이는 규칙성이 발견된다. 
  
-
+```
     "a few people sing well” <-> “a couple people sing well”
-
+```
  
 이 때, 모듈 R 은 위 문장 중 일부가 바뀌었다고 해서 문장에 대한 validity 판단을 바꾸진 않는다. 
 
 <br/><br/>
-<b/>*"W maps 'few' and 'couple' close together -> In R's perspective it's little change"*</b>
+***"W maps 'few' and 'couple' close together -> In R's perspective it's little change"***
 <br/><br/>
 즉, R 의 관점에선 이건 아주 사소한 변화일 뿐이고, few 와 couple 은 모두 같은 클래스 내에 위치한다.
 <br/><br/>이런 식으로 특정 문장을 다른 유사한 문장 클래스와 묶어서 일반화하는 게 가능해진다. 
@@ -68,10 +68,11 @@ Word Embedding은 단어를 (200 ~ 500 차원정도의) 고차원 벡터로 벡�
 
 *This enables us to generalize from one sentence to a class of similar sentences.*
  
-
+```
     -   “the wall is blue” →→ “the wall is red” 
 
     -   “the wall is blue” →→ “the ceiling is red”
+```
 
 *The impact of this is exponential with respect to the number of words.*
 
@@ -79,8 +80,7 @@ Word Embedding은 단어를 (200 ~ 500 차원정도의) 고차원 벡터로 벡�
  <br/>
 
 
-<b/>그렇다면 W를 어떻게 학습하는가? </b>
- <br/>
+**그렇다면 W를 어떻게 학습하는가?** <br/>
  <br/>
 
 'Gender' , 'Singular/ Plural' 등등도 고려해주어야 한다. 
@@ -88,7 +88,7 @@ Word Embedding은 단어를 (200 ~ 500 차원정도의) 고차원 벡터로 벡�
 그런데 문제는, 이렇게 사람이 임의로 기준을 나눠서 valid / not valid 을 체크해주는 모델을 만들기에는 너무 고려할 것들이 많다는 것이다.
 
 
-그렇기에 Neural network 는 우리가 세세한 과정을 알 필요 없이 <b/>*"learn better ways to represent the data"*</b> 한다.
+그렇기에 Neural network 는 우리가 세세한 과정을 알 필요 없이 ***"learn better ways to represent the data"*** 한다.
 
 ---
 *It’s important to appreciate that all of these properties of W are side effects.*
@@ -150,7 +150,7 @@ A는 Representing Words 에서부터 Representing Pharses, 그리고 Representin
 
 
  
-<center><img src = 'https://k.kakaocdn.net/dn/LMyW6/btqyTkEvuas/AArWysEVUnWyTuaAkZwbWk/img.png'></center>
+<center><img src = 'https://k.kakaocdn.net/dn/LMyW6/btqyTkEvuas/AArWysEVUnWyTuaAkZwbWk/img.png' style = "width : 600px; height: auto;"></center>
 
 이를테면, 영어 문장를 인코딩하고 프랑스어로 디코딩하는 예시가 있다. 
 
@@ -164,7 +164,7 @@ A는 Representing Words 에서부터 Representing Pharses, 그리고 Representin
 
  
 
-*Neural Network 가 이렇게 좋은 성능을 내는 것을 <b/>*Representation*</b>의 측면에서 봐보자는 것.*
+*Neural Network 가 이렇게 좋은 성능을 내는 것을 ***Representation***의 측면에서 봐보자는 것.*
 
 NN 은 layered model 을 최적화하는 과정에서 데이터를 representing 하는 더 나은 방법을 찾는다. 
 
