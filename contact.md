@@ -2,6 +2,6 @@
 
 *** 
 
-## GMAIL : <acting171@gmail.com>
+## GMAIL : *<acting171@gmail.com>*
   
-## GITHUB : <https://github.com/asjnhy>
+## GITHUB : *<https://github.com/asjnhy>*
