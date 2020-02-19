@@ -4,7 +4,7 @@ description:        ""
 author:             ""
 baseurl:            ""
 url:                "https://asjnhy.github.io"
-permalink: /:categories/:title/
+permalink: "/:categories/:title/"
 # Social Profiles
 twitter_username:   SBootstrap
 github_username:    BlackrockDigital
