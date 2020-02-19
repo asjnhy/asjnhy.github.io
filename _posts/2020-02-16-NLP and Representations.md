@@ -1,8 +1,4 @@
- 
----
-layout: post
-categories: NLP
----
+
 
 # Deeplearning, NLP, and Representations 리뷰 및 요약 
 
