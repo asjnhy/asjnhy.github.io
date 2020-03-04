@@ -43,7 +43,9 @@
                 - Digital Signal -> (Carrier) -> Composite Analogue Signal -> Digital signal 
 
 
-    <center><img src = 'https://www.norwegiancreations.com/wp-content/uploads/2016/03/filters.png' style="width=600px; height = auto;">  *Lowpass and Bandpass*
+    <center><img src = 'https://www.norwegiancreations.com/wp-content/uploads/2016/03/filters.png' style="width:600px; height:auto;"> 
+ 
+ *Lowpass and Bandpass*
     </center>
 
     <br/>
