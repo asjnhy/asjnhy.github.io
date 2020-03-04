@@ -13,7 +13,8 @@
 
 - 배열, 연결리스트, 힙으로 구현 가능하다.
 
-
+</br>
+</br>
 ## 2. Heap
 
 - Complete Binary Tree(완전이진트리) 기반으로, 최댓값 및 최솟값 연산을 빠르게 하기 위해 고안된 구조 
@@ -31,6 +32,8 @@
         - 부모 노드의 키 값이 항상 자식노드의 키 값보다 작음 
 
 
+</br>
+</br>
 ## 3. heapq
 
 - 파이썬의 heapq 모듈 : Complete Binary Tree 기반 Min Heap 자료구조 
@@ -38,16 +41,20 @@
 - 루트 노드는 heapq에서 가장 작은 값 
 
 - 가장 작은 값 알고 싶을 때 용이
-    <pre> 
-    heap = []
-    heapq.heappush(heap, 1)
-    </pre> 
-    <pre>
-    heap = [1,2,3,4]
-    heapq.heapify(heap) 
-    </pre>
+
+<pre>
+<code>
+heap = []
+heapq.heappush(heap, 1)
+
+heap = [1,2,3,4]
+heapq.heapify(heap) 
+</code>
+</pre>
 
 
+</br>
+</br>
 ## 4. heapq를 쓰는 알고리즘 문제 - 더 맵게 
 
 - 섞은 음식의 스코빌 지수 = 가장 맵지 않은 음식의 스코빌 지수 + (두 번째로 맵지 않은 음식의 스코빌 지수 * 2)
@@ -61,9 +68,12 @@
 
 
 
+</br>
+</br>
 
 ## *Reference*
  
-https://developer-alle.tistory.com/321 </br>
-https://soooprmx.com/archives/5121
+<https://developer-alle.tistory.com/321>
+</br>
+<https://soooprmx.com/archives/5121>
 
