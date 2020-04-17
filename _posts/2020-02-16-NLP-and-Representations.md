@@ -1,13 +1,12 @@
 
 
-# Deeplearning, NLP, and Representations 리뷰 및 요약 
+# Deep learning, NLP, and Representations 리뷰 및 요약 
 
 
 <http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/> 
 <br/>
 
-
-*원제*
+원제 : 
 *<br/>
 Deep Learning, NLP, and Representations<br/>
 neural networks, deep learning, representations, NLP, recursive neural networks*
@@ -15,7 +14,7 @@ neural networks, deep learning, representations, NLP, recursive neural networks*
 
 뉴럴네트워크의 특성 중 하나인 Universality는 어떤 data 를 넣어도, 잘 작동한다는 범용성을 뜻한다. 
 
-왜이렇게 얘가 잘 작동하는걸까, NLP 예시를 통해 그 이유를 알아보는게 이 글의 목적이다. 
+왜 이렇게 얘가 잘 작동하는걸까, NLP 예시를 통해 그 이유를 알아보는게 이 글의 목적이다. 
 <br/><br/><br/><br/><br/>
 ## 1. Word Embeddings
 
@@ -32,7 +31,7 @@ Word Embedding은 단어를 (200 ~ 500 차원정도의) 고차원 벡터로 벡�
 
 
 단어 임베딩으로 할 수 있는 작업은, 
-5-gram(sequence of 5 words)이 valid 한지를 예측하는 문제이다. 
+5-gram(sequence of 5 words)이 valid 한 지를 예측하는 문제이다. 
 
 
 <center><img src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcHxiLE%2FbtqyQVdHhyr%2FeXg8pInumBMTWryeqKTxK0%2Fimg.png"></center>
